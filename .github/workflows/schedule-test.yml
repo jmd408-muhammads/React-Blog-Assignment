@@ -3,7 +3,6 @@ name: Schedule Test Pipeline
 on:
   schedule:
     - cron: "10 10 * * *"   # Runs daily at 3:05 PM IST
-  workflow_dispatch:        # Allows manual testing
 
 jobs:
   test_job:
