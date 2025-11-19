@@ -2,7 +2,7 @@ name: Schedule Test Pipeline
 
 on:
   schedule:
-    - cron: "10 10 * * *"   # Runs daily at 3:05 PM IST
+    - cron: "20 10 * * *"   # Runs daily at 3:05 PM IST
 
 jobs:
   test_job:
